@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter {
+    width: 100%;
+    height: px; 
+    background-color: blanchedalmond;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 50px; 
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px; 
+}
+.counter a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px; 
+    padding: 10px 15px;
+    transition: color 0.3s ease; 
+}
+
+.counter a:hover {
+    color: chocolate;
+}
+
+.try {
+    background-color: chocolate;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    color: white; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.try:hover {
+    background-color: darkorange;
+}
+.circle-image{
+    border-radius: 60px;
+   
+    width: 40px;
+    height: 40px;
+   display: flex;
+   margin-top: 40px;
+
+}
+.new-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 50px; 
+    background-color: blanchedalmond;
+}
+
+.new-section .content {
+    width: 50%; 
+}
+
+.new-section .content h2 {
+    font-size: 2rem;
+    color: chocolate; 
+    margin-bottom: 20px;
+}
+
+.new-section .content p {
+    font-size: 1.2rem; 
+    color: #333; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+}
+
+.new-section .content .btn {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-section .content .btn:hover {
+    background-color: darkorange;
+}
+
+.new-section .image {
+    width: 40%; 
+}
+
+.new-section .image img {
+    width: 100%; 
+    border-radius: 10px;
+}
+/* ------------ */
+.how-it-works {
+    display: flex; /* استخدام Flexbox لتنسيق النص والصورة بجانب بعض */
+    justify-content: space-between; /* توزيع النص والصورة بالتساوي */
+    align-items: center; /* محاذاة النص والصورة عموديًا */
+    padding: 50px; /* إضافة مسافة داخلية */
+    background-color: #f9f9f9; /* لون خلفية خفيف */
+}
+
+.how-it-works .content {
+    width: 50%; /* تخصيص 50% من العرض للنص */
+}
+
+.how-it-works .content h3 {
+    font-size: 1.2rem; /* حجم النص */
+    color: darkorange; /* لون النص */
+    margin-bottom: 10px; /* مسافة أسفل العنوان */
+}
+
+.how-it-works .content h2 {
+    font-size: 2rem; /* حجم النص الرئيسي */
+    color: #333; /* لون النص */
+    margin-bottom: 20px; /* مسافة أسفل النص */
+}
+
+.how-it-works .step {
+    display: flex; /* استخدام Flexbox لتنسيق الرقم والنص */
+    align-items: flex-start; /* محاذاة النص والرقم عموديًا */
+    gap: 20px; /* مسافة بين الرقم والنص */
+}
+
+.how-it-works .step h1 {
+    font-size: 4rem; /* حجم الرقم */
+    color: #ddd; /* لون الرقم */
+    margin: 0; /* إزالة المسافات الافتراضية */
+}
+
+.how-it-works .step h3 {
+    font-size: 1.5rem; /* حجم العنوان الفرعي */
+    color: #333; /* لون النص */
+    margin-bottom: 10px; /* مسافة أسفل النص */
+}
+
+.how-it-works .step p {
+    font-size: 1rem; /* حجم النص */
+    color: #666; /* لون النص */
+    line-height: 1.6; /* ارتفاع السطر */
+}
+
+.how-it-works .image {
+    width: 40%; /* تخصيص 40% من العرض للصورة */
+    display: flex; /* استخدام Flexbox داخل الصورة */
+    justify-content: center; /* محاذاة الصورة أفقيًا */
+    align-items: center; /* محاذاة الصورة عموديًا */
+}
+
+.how-it-works .image img {
+    width: 100%; /* جعل الصورة تأخذ العرض الكامل */
+    max-width: 300px; /* تحديد أقصى عرض للصورة */
+    border-radius: 10px; /* زوايا دائرية للصورة */
+}
+/* ============= */
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.how-it-works .image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works .image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.how-it-works .content {
+    width: 50%;
+}
+
+.how-it-works .content h3 {
+    font-size: 1.2rem;
+    color: darkorange;
+    margin-bottom: 10px;
+}
+
+.how-it-works .content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.how-it-works .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.how-it-works .step h1 {
+    font-size: 4rem;
+    color: #ddd;
+    margin: 0;
+}
+
+.how-it-works .step h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.how-it-works .step p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+/*  ============== */
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.how-it-works .content {
+    width: 50%;
+}
+
+.how-it-works .content h1 {
+    font-size: 4rem;
+    color: #ddd;
+    margin: 0;
+}
+
+.how-it-works .content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.how-it-works .content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.how-it-works .image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works .image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.meals {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.meals h3 {
+    font-size: 1.2rem;
+    color: darkorange;
+    margin-bottom: 10px;
+}
+
+.meals h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.meal-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meal-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.meal-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.meal-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.meal-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.see-recipes {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: darkorange;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.see-recipes:hover {
+    color: #ff6600;
+}
+/* 000000000 */
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #fff5e6;
+}
+
+.testimonials .content {
+    width: 50%;
+}
+
+.testimonials .content h3 {
+    font-size: 1.2rem;
+    color: darkorange;
+    margin-bottom: 10px;
+}
+
+.testimonials .content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.testimonials .testimonial-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.testimonials .testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonials .testimonial-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.testimonials .testimonial-item span {
+    font-size: 0.9rem;
+    color: #333;
+    font-style: italic;
+}
+
+.gallery {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-content .logo img {
+    width: 100px;
+}
+
+.footer-content .links h4 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-content .links p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
